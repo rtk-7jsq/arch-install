@@ -22,7 +22,7 @@ echo 'Include = /etc/pacman.d/mirrorlist' >> /etc/pacman.conf
 sed -i '/DisableSandbox/a DisableDownloadTimeout' /etc/pacman.conf
 
 pacman -Syy
-pacman -S grub efibootmgr networkmanager sudo xdg-user-dirs ntfs-3g gvfs-mtp git base-devel bluez bluez-utils nvidia nvidia-utils os-prober
+pacman -S grub efibootmgr networkmanager sudo xdg-user-dirs ntfs-3g gvfs-mtp git base-devel bluez bluez-utils nvidia nvidia-utils intel-media-driver os-prober
 
 grub-install
 echo "GRUB_DISABLE_OS_PROBER=false" >> /etc/default/grub

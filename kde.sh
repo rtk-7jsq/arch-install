@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S plasma firefox obs-studio vlc ffmpeg kio-admin ncdu noto-fonts-cjk telegram-desktop dolphin konsole intel-media-driver ffmpegthumbs grub-customizer spectacle htop evince libreoffice libreoffice-fresh-ru
+sudo pacman -S plasma firefox obs-studio vlc ffmpeg kio-admin ncdu noto-fonts-cjk telegram-desktop dolphin konsole intel-media-driver ffmpegthumbs grub-customizer spectacle htop evince libreoffice libreoffice-fresh-ru code kdeconnect ark easytag power-profiles-daemon kcalc openssh
 
 sudo systemctl enable sddm
 
