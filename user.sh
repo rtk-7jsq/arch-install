@@ -19,6 +19,7 @@ echo " Enter ROOT password: "
 passwd
 echo '[multilib]' >> /etc/pacman.conf
 echo 'Include = /etc/pacman.d/mirrorlist' >> /etc/pacman.conf
+echo 'DisableDownloadTimeout' >> /etc/pacman.conf
 
 pacman -Syy
 pacman -S grub efibootmgr networkmanager sudo xdg-user-dirs ntfs-3g gvfs-mtp git base-devel bluez bluez-utils nvidia nvidia-utils os-prober
