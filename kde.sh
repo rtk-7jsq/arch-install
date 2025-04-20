@@ -4,4 +4,5 @@ sudo pacman -S plasma firefox obs-studio vlc ffmpeg kio-admin ncdu noto-fonts-cj
 
 sudo systemctl enable sddm
 
-reboot
+printf "\e[1;32mInstallation completed!\e[0m"
+

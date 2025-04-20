@@ -39,4 +39,4 @@ echo " Enter USER password: "
 passwd $username
 echo '%wheel ALL=(ALL) ALL' >> /etc/sudoers
 
-printf "\e[1;32mInstall competed! ('umount -a' and 'reboot'.)\e[0m"
+printf "\e[1;32mInstallation comlpeted! ('umount -a' and 'reboot'.)\e[0m"
